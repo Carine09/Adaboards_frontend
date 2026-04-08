@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-gray-800: #29262C;
+  --color-light: #FFFFFF;
+  --color-muted: rgb(255 255 255 / 70%);
+  --color-disabled: rgb(255 255 255 / 50%);
+  --color-muted-background: rgb(255 255 255 / 20%);
+  --color-error: #FF7B7B;
+  --color-success: #CAFCA0;
+  --color-primary: #C6ABFF;
+  --color-todo: #FFE58F;
+  --color-doing: #A0FCF3;
+
+  /* Font Families */
+  --font-title: "Gabarito";
+  --font-body: "Gabarito";
+  --font-fancy: "Gloria Hallelujah";
+}
+
+body {
+  background-color: #1E1E1E;
+}
